@@ -1,0 +1,48 @@
+.submain{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  display:grid;
+  grid-gap:"10px";
+  grid-template-columns: repeat(4,155px);
+}
+img{
+    width:150px;
+    height:150px;
+}
+
+.flip{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 10px;
+}
+
+.card{
+  position: relative;
+}
+.card .front{ 
+  transform:rotateY(90deg);
+  position: absolute;
+}
+.flipped .front{ 
+  transform: rotateY(0deg)
+}
+ 
+@media only screen and (min-width:321px) and (max-width:768px)
+{
+  .submain{
+    margin-left: 10px;
+    grid-template-columns: repeat(3,110px);
+  }
+  img{
+    width:100px;
+    height:100px;
+}
+.memory{
+ font-size: 35px;
+}
+.turns{
+  margin-top:10px;
+}
+}

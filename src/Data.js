@@ -1,0 +1,31 @@
+export const Data=[
+    {
+        img:'/jadeja.jpg',
+        bac:'/back.jpg',
+        flip:false
+    },
+    {
+        img:'/kholi.jpg',
+        bac:'/back.jpg',
+        flip:false
+    },
+    {
+        img:'/raina.jpg',
+        bac:'/back.jpg',
+        flip:false
+    },{
+        img:'/rohit.jpeg',
+        bac:'/back.jpg',
+        flip:false
+    },
+    {
+        img:'/yuvi.jpg',
+        bac:'/back.jpg',
+        flip:false
+    },
+    {
+        img:'/mcclum.jpg',
+        bac:'/back.jpg',
+        flip:false
+    }
+]
